@@ -77,7 +77,7 @@ const Weather = () => {
               flexDirection: "column",
               boxShadow: "2px 2px #ededed",
             }}
-            className="weather-cards"
+            class="weather-card"
           >
             <b>Temperature</b>
             <br />
@@ -94,7 +94,7 @@ const Weather = () => {
               flexDirection: "column",
               boxShadow: "2px 2px #ededed",
             }}
-            className="weather-cards"
+            class="weather-card"
           >
             <b>Humidity</b>
             <br />
@@ -111,7 +111,7 @@ const Weather = () => {
               flexDirection: "column",
               boxShadow: "2px 2px #ededed",
             }}
-            className="weather-cards"
+            class="weather-card"
           >
             <b>Condition</b>
             <br />
@@ -128,7 +128,7 @@ const Weather = () => {
               flexDirection: "column",
               boxShadow: "2px 2px #ededed",
             }}
-            className="weather-cards"
+            class="weather-card"
           >
             <b>Wind Speed</b>
             <br />
