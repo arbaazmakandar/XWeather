@@ -13,9 +13,7 @@ const Weather = () => {
         `https://api.weatherapi.com/v1/current.json?key=d10eed0ed92048518ee53841240205&q=${inputSearch}`
       );
       setData(response.data.current);
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
+      setLoading(false);
     } catch (error) {
       alert("Failed to fetch weather data");
     }
@@ -25,10 +23,6 @@ const Weather = () => {
     event.preventDefault();
     getData(searchText);
   };
-
-  useEffect(() => {
-    setLoading(true);
-  }, [searchText]);
 
   return (
     <>
