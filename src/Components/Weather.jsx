@@ -64,6 +64,8 @@ const Weather = () => {
             justifyContent: "space-evenly",
             alignItems: "center",
           }}
+          class="weather-cards"
+
         >
           {" "}
           <div
