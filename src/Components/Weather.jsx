@@ -62,7 +62,7 @@ const Weather = () => {
         </button>
       </form>
       {loading ? (
-        <p>Loading data ...</p>
+        <p>Loading data...</p>
       ) : (
         <div
           style={{
