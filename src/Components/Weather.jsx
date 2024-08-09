@@ -7,6 +7,7 @@ const Weather = () => {
   const [loading, setLoading] = useState(false);
 
   const getData = async (inputSearch) => {
+    setLoading(true);
     try {
       const response = await axios.get(
         `https://api.weatherapi.com/v1/current.json?key=d10eed0ed92048518ee53841240205&q=${inputSearch}`
